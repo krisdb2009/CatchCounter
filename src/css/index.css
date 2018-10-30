@@ -9,6 +9,9 @@
 * {
     font-family:'PT Sans';
 }
+body {
+    margin:0px;
+}
 body::after {
     content:'';
     position:fixed;

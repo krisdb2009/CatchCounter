@@ -1,11 +1,17 @@
+#quotes {
+    font-family:Brody;
+    margin-top:130px;
+    text-align:center;
+    font-size:60px;
+}
 #animation {
     position:relative;
-    top:40px;
+    margin-top:50px;
     width:600px;
     height:500px;
     margin-left:auto;
     margin-right:auto;
-    top:100px;
+    margin-bottom:100px;
 }
 #ccounter {
     position:absolute;
@@ -22,6 +28,14 @@
     height:130px;
     background-image:url('./img/counter.png');
     background-size:100% 100%;
+}
+.panels {
+    background-color:white;
+    padding:50px;
+    margin-top:10px;
+}
+.panels:nth-child(even) {
+    background-color:transparent;
 }
 #jscounter {
     position:absolute;

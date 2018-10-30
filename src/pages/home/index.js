@@ -4,14 +4,15 @@ Number.prototype.pad = function(size) {
     return s;
 }
 $(document).ready(function() {
+    $.getJSON('./src/pages/home/quotes.json', function(quotes) {
+        $('#quotes').text(quotes[0]); 
+    });
     if(typeof mem.homeCounter == 'undefined' || mem.homeCounter == false) {
         mem.homeCounter = true;
         setTimeout(function() {
             setInterval(function() {
-
                 $('#jscounter').text((parseInt($('#jscounter').text()) + 1).pad(6));
             }, 500);
         }, 1000);
-
     }
 });

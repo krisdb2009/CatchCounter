@@ -5,14 +5,24 @@ Number.prototype.pad = function(size) {
 }
 $(document).ready(function() {
     $.getJSON('./src/pages/home/quotes.json', function(quotes) {
-        $('#quotes').text(quotes[0]); 
+        $.each(quotes, function() {
+            $('<span></span>').text(this).appendTo('#quotes');
+        });
+        var count = 0;
+        function tickQuotes() {
+            var quotes = $('#quotes > span');
+            quotes.removeClass('visible');
+            $(quotes[count++]).addClass('visible');
+            if(quotes.length == count) {
+                count = 0;
+            }
+        }
+        setInterval(tickQuotes, 3000);
+        tickQuotes();
     });
-    if(typeof mem.homeCounter == 'undefined' || mem.homeCounter == false) {
-        mem.homeCounter = true;
-        setTimeout(function() {
-            setInterval(function() {
-                $('#jscounter').text((parseInt($('#jscounter').text()) + 1).pad(6));
-            }, 500);
-        }, 1000);
-    }
+    setTimeout(function() {
+        setInterval(function() {
+            $('#jscounter').text((parseInt($('#jscounter').text()) + 1).pad(6));
+        }, 500);
+    }, 1000);
 });

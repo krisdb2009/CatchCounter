@@ -1,4 +1,7 @@
-var mem = {};
+var mem = {
+    pages: null,
+    cachedPages: []
+};
 $.getJSON('./src/pages/pages.json', function(pages) {
     mem.pages = pages;
     $(document).ready(function() {
@@ -18,15 +21,23 @@ onhashchange = function() {
     var hash = document.location.hash.substring(1);
     if(hash == '') {
         $.each(mem.pages, function() {
-           hash = this;
+           hash = this.toString();
            return false;
         });
     }
-    $('#dynamiccss').attr('href', './src/pages/'+hash+'/index.css');
-    $.get('./src/pages/'+hash+'/index.htm', function(html) {
-        $('main').html(html);
-        $.getScript('./src/pages/'+hash+'/index.js');
-    });
+    $('pages > page').removeClass('visible');
+    if(mem.cachedPages.indexOf(hash) !== -1) {
+        $('page[hash='+hash+']').addClass('visible');
+    } else {
+        $.get('./src/pages/'+hash+'/index.htm', function(html) {
+            var thisPage = $('<page></page>').html(html).attr('hash', hash).appendTo('pages');
+            $('<link id="dynamiccss" rel="stylesheet" type="text/css">').attr('href', './src/pages/'+hash+'/index.css').prependTo(thisPage);
+            $.getScript('./src/pages/'+hash+'/index.js', function() {
+                mem.cachedPages.push(hash);
+                thisPage.addClass('visible');
+            });
+        });
+    }
 };
 $(document).ready(function() {
     

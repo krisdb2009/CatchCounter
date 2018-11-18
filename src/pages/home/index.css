@@ -1,7 +1,12 @@
 #quotes {
     margin-top:130px;
     text-align:center;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0 0 1px #272727;
 }
+
+h1#quotes {}
 #quotes > span {
     display:none;
     font-family:Brody;

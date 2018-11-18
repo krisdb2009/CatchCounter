@@ -39,6 +39,13 @@ onhashchange = function() {
         });
     }
 };
+onscroll = function() {
+    if(window.scrollY > 15) {
+        $('header').addClass('scrolled');
+    } else {
+        $('header').removeClass('scrolled');
+    }
+}
 $(document).ready(function() {
     
 });

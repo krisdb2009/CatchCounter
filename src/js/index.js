@@ -8,9 +8,9 @@ $.getJSON('./src/pages/pages.json', function(pages) {
         var first = true;
         $.each(pages, function(title) {
              if(first) {
-                 $('<a href="#">'+title+'</a>').appendTo('nav');
+                 $('<a page="'+this+'" href="#">'+title+'</a>').appendTo('nav');
              } else {
-                 $('<a href="#'+this+'">'+title+'</a>').appendTo('nav');
+                 $('<a page="'+this+'" href="#'+this+'">'+title+'</a>').appendTo('nav');
              }
              first = false;
         });
@@ -26,6 +26,8 @@ onhashchange = function() {
         });
     }
     $('pages > page').removeClass('visible');
+    $('nav > a').removeClass('selected');
+    $('nav > a[page='+hash+']').addClass('selected');
     if(mem.cachedPages.indexOf(hash) !== -1) {
         $('page[hash='+hash+']').addClass('visible');
     } else {

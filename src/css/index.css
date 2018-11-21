@@ -11,6 +11,7 @@
 }
 body {
     margin:0px;
+    background-color:gray;
 }
 body::after {
     content:'';
@@ -20,18 +21,24 @@ body::after {
     width:100%;
     height:100%;
     z-index:-1;
-    background:linear-gradient(to bottom, rgba(255,255,255,.0) 0%, rgb(255,255,255) 100%), url('../img/bg.jpg');
+    background:linear-gradient(to bottom, rgba(0,0,0,.5) 0%, rgb(0,0,0,0) 100%), url('../img/bg.jpg');
     background-size:cover;
     opacity:1;
     filter:blur(10px);
 }
 #logo {
+    transition:.3s;
     font-family:Brody;
     font-size:50px;
     margin-left:20px;
     margin-right:15px;
-    color:#000000;
+    color:white;
+    text-shadow: 2px 2px 0px #000000;
     text-decoration:none;
+}
+header.scrolled #logo {
+    color:black;
+    text-shadow:none;
 }
 header {
     position:fixed;
@@ -40,35 +47,42 @@ header {
     width:100%;
     z-index:100;
     transition:.3s;
-    border-bottom:1px solid transparent;
-    background-color:white;
+    background-color:transparent;
 }
 header.scrolled {
     position:fixed;
     top:0px;
     left:0px;
     width:100%;
-    border-bottom:1px solid #eaeaea;
-    background-color:white;
     z-index:100;
+    background-color:white;
 }
 header nav {
     display:inline-block;
     float:right;
 }
 nav a {
+    transition:.3s;
     display:inline-block;
     height:35px;
     padding-left:15px;
     padding-right:15px;
-    line-height:35px;
     text-select:none;
     text-decoration:none;
+    color:white;
+    font-size:17px;
+    margin:23px 10px 8px 10px;
+    text-shadow:1px 1px 0px black;
+}
+header.scrolled nav a.selected {
+    box-shadow:inset 0px -4px 0px black;
+}
+nav a.selected {
+    box-shadow:inset 0px -4px 0px white;
+}
+header.scrolled nav a {
     color:black;
-    border: 1px solid #000000;
-    border-radius:20px;
-    font-size:16px;
-    margin:15px 10px 15px 10px;
+    text-shadow:none;
 }
 html, body {
     width:100%;

@@ -4,6 +4,11 @@ Number.prototype.pad = function(size) {
     return s;
 }
 $(document).ready(function() {
+    $('#readMore').click(function() {
+        $('html').animate({
+           scrollTop: $('#viewport').offset().top + $('#viewport').outerHeight()
+        }, 300);
+    });
     $.getJSON('./src/pages/home/quotes.json', function(quotes) {
         $.each(quotes, function() {
             $('<span></span>').text(this).appendTo('#quotes');

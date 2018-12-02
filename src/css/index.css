@@ -90,7 +90,7 @@ html, body {
 }
 pages, page {
     display:block;
-    min-height:calc(100% - 50px);
+    min-height:calc(100% - 100px);
 }
 page:not(.visible) {
     display:none;
@@ -98,8 +98,25 @@ page:not(.visible) {
 .hidden {
     display:none;
 }
-footer {
-    height:50px;
+footer a {
     color:white;
-    background-color:#383838;
+}
+footer {
+    height:90px;
+    color:white;
+    background-color:rgba(0,0,0,.8);
+    font-size:14px;
+    padding:5px;
+    text-align:center;
+}
+footer #centerref {
+    display:inline-block;
+    height:90px;
+    width:0px;
+    vertical-align:middle;
+}
+footer #center {
+    display:inline-block;
+    width:100%;
+    vertical-align:middle;
 }

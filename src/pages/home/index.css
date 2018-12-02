@@ -1,9 +1,10 @@
 #quotes {
     text-align:center;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-shadow: 0 0 2px #000000;
     margin:0px;
+    font-weight:normal;
 }
 #quotes > span {
     display:none;
@@ -20,7 +21,7 @@
     color:white;
     font-size:18px;
     text-align:center;
-    padding:20px 10px 0px 10px;
+    padding:10px 10px 10px 10px;
     border:3px solid #ffffff4a;
     border-radius:66px;
     margin:50px auto 50px auto;
@@ -70,12 +71,38 @@
     top:320px;
     left:290px;
 }
-.panels {
+.panel {
     background-color:white;
-    padding:50px;
+    padding:20px 50px 20px 50px;
 }
-.panels:nth-child(even) {
-    background-color:transparent;
+.panel:nth-child(even) {
+    background-color:rgba(255,255,255,.8);
+}
+.panel span.text {
+    display:inline-block;
+    vertical-align:middle;
+    width:calc(100% - 300px);
+}
+.panel:nth-child(even) span.text {
+    text-align:right;
+}
+.panel span.img {
+    display:inline-block;
+    vertical-align:middle;
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:300px;
+    width:300px;
+}
+.panel .wrapper {
+    max-width:1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.panel h1 {
+    font-weight:normal;
+    font-size:35px;
 }
 #jscounter {
     position:absolute;

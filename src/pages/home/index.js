@@ -9,6 +9,27 @@ $(document).ready(function() {
            scrollTop: $('#viewport').offset().top + $('#viewport').outerHeight()
         }, 300);
     });
+    $.getJSON('./src/pages/home/panels.json', function(panels) {
+        var flip = false;
+        $.each(panels, function() {
+            var panel = $('<div class="panel"></div>');
+            var wrapper = $('<div class="wrapper"></div>').appendTo(panel);
+            if(flip) {
+                $('<span class="img"></span>').css('background-image', 'url(\''+this.image+'\')').appendTo(wrapper);
+                var text = $('<span class="text"></span>').appendTo(wrapper);
+            } else {
+                var text = $('<span class="text"></span>').appendTo(wrapper);
+                $('<span class="img"></span>').css('background-image', 'url(\''+this.image+'\')').appendTo(wrapper);
+            }
+            
+            $('<h1></h1>').text(this.title).appendTo(text);
+            $.each(this.paragraphs, function() {
+                $('<p></p>').html(this).appendTo(text);
+            });
+            panel.appendTo('#more');
+            flip = !flip;
+        });
+    });
     $.getJSON('./src/pages/home/quotes.json', function(quotes) {
         $.each(quotes, function() {
             $('<span></span>').text(this).appendTo('#quotes');

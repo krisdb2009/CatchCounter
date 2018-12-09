@@ -1,0 +1,43 @@
+h1 {
+    color:white;
+    text-align:center;
+    margin-top:80px;
+    font-weight:normal;
+    font-size:50px;
+    text-shadow:2px 2px 0px #2d2d2d;
+}
+#gallery {
+    line-height:0px;
+    text-align:center;
+}
+#gallery .photo {
+    display:inline-block;
+    width:300px;
+    height:280px;
+    margin:20px;
+    background-color:white;
+    box-shadow:0px 0px 15px rgba(0,0,0,.7);
+}
+#gallery .photo .title {
+    display:inline-block;
+    vertical-align:middle;
+    line-height:20px;
+    font-size:16px;
+    margin:0px 10px 0px 10px;
+}
+#gallery .photo .guide {
+    content:'';
+    display:inline-block;
+    width:0px;
+    height:50px;
+    vertical-align:middle;
+}
+#gallery .photo .img {
+    margin:10px;
+    width:280px;
+    height:200px;
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}

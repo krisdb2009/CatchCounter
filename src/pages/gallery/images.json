@@ -1,0 +1,320 @@
+[
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/1.jpg",
+    "image": "./src/pages/gallery/images/1.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/2.jpg",
+    "image": "./src/pages/gallery/images/2.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/3.jpg",
+    "image": "./src/pages/gallery/images/3.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/4.jpg",
+    "image": "./src/pages/gallery/images/4.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/5.jpg",
+    "image": "./src/pages/gallery/images/5.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/6.jpg",
+    "image": "./src/pages/gallery/images/6.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/7.jpg",
+    "image": "./src/pages/gallery/images/7.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/8.jpg",
+    "image": "./src/pages/gallery/images/8.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/9.jpg",
+    "image": "./src/pages/gallery/images/9.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/10.jpg",
+    "image": "./src/pages/gallery/images/10.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/11.jpg",
+    "image": "./src/pages/gallery/images/11.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/12.jpg",
+    "image": "./src/pages/gallery/images/12.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/13.jpg",
+    "image": "./src/pages/gallery/images/13.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/14.jpg",
+    "image": "./src/pages/gallery/images/14.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/15.jpg",
+    "image": "./src/pages/gallery/images/15.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/16.jpg",
+    "image": "./src/pages/gallery/images/16.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/17.jpg",
+    "image": "./src/pages/gallery/images/17.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/18.jpg",
+    "image": "./src/pages/gallery/images/18.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/19.jpg",
+    "image": "./src/pages/gallery/images/19.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/20.jpg",
+    "image": "./src/pages/gallery/images/20.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/21.jpg",
+    "image": "./src/pages/gallery/images/21.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/22.jpg",
+    "image": "./src/pages/gallery/images/22.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/23.jpg",
+    "image": "./src/pages/gallery/images/23.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/24.jpg",
+    "image": "./src/pages/gallery/images/24.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/25.jpg",
+    "image": "./src/pages/gallery/images/25.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/26.jpg",
+    "image": "./src/pages/gallery/images/26.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/27.jpg",
+    "image": "./src/pages/gallery/images/27.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/28.jpg",
+    "image": "./src/pages/gallery/images/28.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/29.jpg",
+    "image": "./src/pages/gallery/images/29.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/30.jpg",
+    "image": "./src/pages/gallery/images/30.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/31.jpg",
+    "image": "./src/pages/gallery/images/31.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/32.jpg",
+    "image": "./src/pages/gallery/images/32.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/33.jpg",
+    "image": "./src/pages/gallery/images/33.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/34.jpg",
+    "image": "./src/pages/gallery/images/34.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/35.jpg",
+    "image": "./src/pages/gallery/images/35.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/36.jpg",
+    "image": "./src/pages/gallery/images/36.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/37.jpg",
+    "image": "./src/pages/gallery/images/37.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/38.jpg",
+    "image": "./src/pages/gallery/images/38.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/39.jpg",
+    "image": "./src/pages/gallery/images/39.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/40.jpg",
+    "image": "./src/pages/gallery/images/40.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/41.jpg",
+    "image": "./src/pages/gallery/images/41.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/42.jpg",
+    "image": "./src/pages/gallery/images/42.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/43.jpg",
+    "image": "./src/pages/gallery/images/43.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/44.jpg",
+    "image": "./src/pages/gallery/images/44.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/45.jpg",
+    "image": "./src/pages/gallery/images/45.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/46.jpg",
+    "image": "./src/pages/gallery/images/46.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/47.jpg",
+    "image": "./src/pages/gallery/images/47.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/48.jpg",
+    "image": "./src/pages/gallery/images/48.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/49.jpg",
+    "image": "./src/pages/gallery/images/49.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/50.jpg",
+    "image": "./src/pages/gallery/images/50.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/51.jpg",
+    "image": "./src/pages/gallery/images/51.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/52.jpg",
+    "image": "./src/pages/gallery/images/52.jpg"
+  },
+  {
+    "title": "Picture Title",
+    "description": "A description of this picture will go here.",
+    "thumbnail": "./src/pages/gallery/thumbnails/53.jpg",
+    "image": "./src/pages/gallery/images/53.jpg"
+  }
+]

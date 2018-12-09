@@ -26,10 +26,11 @@ onhashchange = function() {
         });
     }
     $('pages > page').removeClass('visible');
+    $('pages > page link[rel=stylesheet]').attr('disabled', true);
     $('nav > a').removeClass('selected');
     $('nav > a[page='+hash+']').addClass('selected');
     if(mem.cachedPages.indexOf(hash) !== -1) {
-        $('page[hash='+hash+']').addClass('visible');
+        $('page[hash='+hash+']').addClass('visible').find('link[rel=stylesheet]').attr('disabled', false);
     } else {
         $.get('./src/pages/'+hash+'/index.htm', function(html) {
             var thisPage = $('<page></page>').html(html).attr('hash', hash).appendTo('pages');

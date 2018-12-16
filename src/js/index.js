@@ -15,6 +15,12 @@ $.getJSON('./src/pages/pages.json', function(pages) {
              first = false;
         });
         onhashchange();
+        $('#hamburger').click(function() {
+            $('header nav').toggleClass('visible');
+        });
+        $('header nav a').click(function() {
+            $('header nav').removeClass('visible');
+        });
     });
 });
 onhashchange = function() {

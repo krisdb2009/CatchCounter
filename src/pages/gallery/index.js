@@ -20,8 +20,9 @@ $.getJSON('./src/pages/gallery/images.json', function(photos) {
         var index = count++;
         var thumb = $('<div class="img" style="background-image:url('+this.thumbnail+');"></div>');
         var photo = $('<div class="photo"><div class="guide"></div><div class="title">'+this.title+'</div></div>')
-        .appendTo('#gallery')
+        .appendTo('#gal')
         .click(function() {
+            $('meta[name=theme-color]').attr('content', '#000000');
             var options = {
                 index: index,
                 history: false,
@@ -34,6 +35,9 @@ $.getJSON('./src/pages/gallery/images.json', function(photos) {
             };
             var gallery = new PhotoSwipe( $('.pswp')[0], PhotoSwipeUI_Default, psphotos, options);
             gallery.init();
+            gallery.listen('close', function() {
+                $('meta[name=theme-color]').attr('content', '#ffffff');
+            });
         });
         thumb.prependTo(photo);
     });

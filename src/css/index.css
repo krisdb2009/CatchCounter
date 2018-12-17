@@ -31,14 +31,16 @@ body::after {
     transition:.3s;
 }
 header #hamburger {
+    position:fixed;
+    top:11px;
+    right:11px;
+
     width:30px;
     height:30px;
     display:none;
     background-image:url('../img/hamw.svg');
     background-size:100% 100%;
     cursor:pointer;
-    float:right;
-    margin:13px 13px 0px 13px;
 }
 header.scrolled #hamburger {
     background-image:url('../img/hamb.svg');
@@ -59,19 +61,15 @@ header.scrolled #logo {
 }
 header {
     position:fixed;
-    top:0px;
+    top:-1px;
     left:0px;
     width:100%;
     z-index:100;
     transition:.3s;
     background-color:transparent;
+    padding-top:1px;
 }
 header.scrolled {
-    position:fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    z-index:100;
     background-color:white;
     box-shadow:0px 0px 50px rgba(0,0,0,.35);
 }
@@ -149,29 +147,29 @@ footer #center {
     }
     header {
         text-align:center;
-        z-index:100;
     }
     header nav {
         position:fixed;
-        top:-100px;
         left:0px;
         background-color:white;
         float:none;
         width:100%;
         padding-top:10px;
-        z-index:99;
         opacity:0;
         transition:.3s;
-    }
-    header nav.visible {
         top:52px;
+        pointer-events:none;
+        box-shadow:0px 20px 20px rgba(0,0,0,.1);
+    }
+    header.shownav nav {
         opacity:1;
+        pointer-events:all;
     }
     header nav a {
         font-size:14px;
         margin:5px 5px 5px 5px;
     }
     header #hamburger {
-        display:inline-block;
+        display:block;
     }
 }

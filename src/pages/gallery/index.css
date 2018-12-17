@@ -7,12 +7,12 @@ h1 {
     text-shadow: 2px 2px 0px #2d2d2d;
 }
 
-#gallery {
+#gal {
     line-height: 0px;
     text-align: center;
 }
 
-#gallery .photo {
+#gal .photo {
     display: inline-block;
     width: 300px;
     height: 280px;
@@ -22,7 +22,7 @@ h1 {
     cursor: zoom-in;
 }
 
-#gallery .photo .title {
+#gal .photo .title {
     display: inline-block;
     vertical-align: middle;
     line-height: 20px;
@@ -30,7 +30,7 @@ h1 {
     margin: 0px 10px 0px 10px;
 }
 
-#gallery .photo .guide {
+#gal .photo .guide {
     content: '';
     display: inline-block;
     width: 1px;
@@ -38,7 +38,7 @@ h1 {
     vertical-align: middle;
 }
 
-#gallery .photo .img {
+#gal .photo .img {
     margin: 10px;
     width: 280px;
     height: 200px;
@@ -47,9 +47,20 @@ h1 {
     background-repeat: no-repeat;
 }
 
-#gallery .photo .img {
+#gal .photo .img {
     width: calc(100% - 20px);
     height: calc(100% - 80px);
+}
+
+#ccphotologo {
+    font-family: Brody;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    left: calc(50% - 75px);
+    text-shadow: 2px 2px 0px black;
 }
 
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
@@ -506,7 +517,7 @@ a.pswp__share--download:hover {
 }
 
 .pswp__caption__center {
-    text-align: left;
+    text-align: center;
     max-width: 420px;
     margin: 0 auto;
     font-size: 13px;

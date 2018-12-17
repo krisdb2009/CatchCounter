@@ -16,11 +16,21 @@ $.getJSON('./src/pages/pages.json', function(pages) {
         });
         onhashchange();
         $('#hamburger').click(function() {
-            $('header nav').toggleClass('visible');
+            if($('header').hasClass('shownav')) {
+                $('header').removeClass('shownav');
+                onscroll();
+            } else {
+                $('header').addClass('shownav scrolled');
+            }
         });
         $('header nav a').click(function() {
-            $('header nav').removeClass('visible');
+            $('header').removeClass('shownav');
+            onscroll();
         });
+    });
+    $.getJSON('./src/pages/footer.json', function(data) {
+        $('footer #info').html(data.info);
+        $('footer #copy').html(data.copy);
     });
 });
 onhashchange = function() {
@@ -52,7 +62,7 @@ onscroll = function() {
     if(window.scrollY > 15) {
         $('header').addClass('scrolled');
     } else {
-        $('header').removeClass('scrolled');
+        $('header').removeClass('scrolled shownav');
     }
 }
 $(document).ready(function() {

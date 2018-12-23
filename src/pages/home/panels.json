@@ -1,35 +1,28 @@
 [
     {
-        "title": "Introducing the all new \"MegaMouth\" Catch Counter!",
-        "image": "./src/pages/home/img/ccounter.png",
+        "title": "Introducing \"MegaMouth\"",
+        "image": "./src/pages/home/img/cooler.png",
         "paragraphs": [
-            "Has a larger throat for bigger fish, is stronger, and built to to take abuse! CatchCounter is a NEW product that will make your fishing trip easier and less stressfull.",
-            "Why use a hand talley clicker when you can just drop your catch into CatchCounter and go back to fishing?",
-            "No need for someone lifting the cooler lid every time a fish is caught. Strong, Accurate and Made in the USA!"
+            "Our latest version of a CatchCounter is named \"MegaMouth\" and for good reason.",
+            "Our past models included \"The Original\" and later \"BigMouth\". Both were great models for panfish but we found the need to count larger fish such as Slab Crappie, Monster Gills, White Bass and Walleye.",
+            "So MegaMouth was born."
         ]
     }, {
-        "title": "Introducing the all new \"MegaMouth\" Catch Counter!",
+        "title": "MegaMouth Features: ",
         "image": "./src/pages/home/img/ccounter.png",
         "paragraphs": [
-            "Has a larger throat for bigger fish, is stronger, and built to to take abuse! CatchCounter is a NEW product that will make your fishing trip easier and less stressfull.",
-            "Why use a hand talley clicker when you can just drop your catch into CatchCounter and go back to fishing?",
-            "No need for someone lifting the cooler lid every time a fish is caught. Strong, Accurate and Made in the USA!"
+            "A 60% larger throat and chute than BigMouth",
+            "A user-adjustable return sprint tensioner that allows for different counting flap resistance.",
+            "A new injection-molded design for strength and quick easy cleanup.",
+            "MegaMouth still mounts to cooler and bucket lids."
         ]
     }, {
-        "title": "Introducing the all new \"MegaMouth\" Catch Counter!",
-        "image": "./src/pages/home/img/ccounter.png",
+        "title": "About Catch Counter LLC",
+        "image": "./src/pages/home/img/logoscaled.png",
         "paragraphs": [
-            "Has a larger throat for bigger fish, is stronger, and built to to take abuse! CatchCounter is a NEW product that will make your fishing trip easier and less stressfull.",
-            "Why use a hand talley clicker when you can just drop your catch into CatchCounter and go back to fishing?",
-            "No need for someone lifting the cooler lid every time a fish is caught. Strong, Accurate and Made in the USA!"
-        ]
-    }, {
-        "title": "Introducing the all new \"MegaMouth\" Catch Counter!",
-        "image": "./src/pages/home/img/ccounter.png",
-        "paragraphs": [
-            "Has a larger throat for bigger fish, is stronger, and built to to take abuse! CatchCounter is a NEW product that will make your fishing trip easier and less stressfull.",
-            "Why use a hand talley clicker when you can just drop your catch into CatchCounter and go back to fishing?",
-            "No need for someone lifting the cooler lid every time a fish is caught. Strong, Accurate and Made in the USA!"
+            "Catch Counter LLC is a company that manufactures and sells devices used to help Fishermen keep a count of fish caught.",
+            "These devices are built modular to allow the user a choice of where and how to mount.",
+            "Most mounts are on a cooler or a bucket lid but can mount on any flat surface such as a live well."
         ]
     }
 ]

@@ -107,7 +107,8 @@ html, body {
     -webkit-text-size-adjust:none; 
 }
 pages, page {
-    display:block;
+    display:inline-block;
+    width:100%;
     min-height:calc(100% - 100px);
 }
 page:not(.visible) {

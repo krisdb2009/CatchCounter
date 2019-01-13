@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    margin: 70px;
+    font-weight: normal;
+    font-size: 50px;
+    height: 100px;
+    line-height: 120px;
+    color: white;
+    text-shadow: 2px 2px 0px #2d2d2d;
+}
+
+#contact {
+    padding:50px 20px 50px 20px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    min-height: calc(100vh - 340px);
+}
+
+#contact_info {
+    max-width: 500px;
+    margin: 0px auto 30px auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
+
+#contact_info > div {
+    font-size: 18px;
+    text-align: left;
+    line-height: 25px;
+}
+#frame {
+    margin:auto;
+    max-width:500px;
+}
+iframe {
+    width:100%;
+    height:250px;
+    border:0px;
+    display:inline-block;
+}

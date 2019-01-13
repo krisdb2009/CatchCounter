@@ -109,7 +109,7 @@ html, body {
 pages, page {
     display:inline-block;
     width:100%;
-    min-height:calc(100% - 100px);
+    min-height:100%;
 }
 page:not(.visible) {
     display:none;

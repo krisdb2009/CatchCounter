@@ -10,6 +10,7 @@ h1 {
 #gal {
     line-height: 0px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #gal .photo {
@@ -545,15 +546,16 @@ You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
 .pswp__preloader {
     width: 44px;
     height: 44px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -22px;
     opacity: 0;
     -webkit-transition: opacity 0.25s ease-out;
     transition: opacity 0.25s ease-out;
     will-change: opacity;
     direction: ltr;
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: 0;
+    float: right;
 }
 
 .pswp__preloader__icn {
@@ -621,16 +623,6 @@ by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.htm
     left: 0;
     background: none;
     margin: 0;
-}
-
-@media screen and (max-width: 1024px) {
-    .pswp__preloader {
-        position: relative;
-        left: auto;
-        top: auto;
-        margin: 0;
-        float: right;
-    }
 }
 
 @-webkit-keyframes clockwise {

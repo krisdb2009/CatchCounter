@@ -47,6 +47,9 @@ onhashchange = function() {
     $('nav > a[page='+hash+']').addClass('selected');
     if(mem.cachedPages.indexOf(hash) !== -1) {
         $('page[hash='+hash+']').addClass('visible').find('link[rel=stylesheet]').attr('disabled', false);
+        $('html').animate({
+           scrollTop: 0
+        }, 300);
     } else {
         $.get('./src/pages/'+hash+'/index.htm', function(html) {
             var thisPage = $('<page></page>').html(html).attr('hash', hash).appendTo('pages');
@@ -54,6 +57,9 @@ onhashchange = function() {
             $.getScript('./src/pages/'+hash+'/index.js', function() {
                 mem.cachedPages.push(hash);
                 thisPage.addClass('visible');
+                $('html').animate({
+                   scrollTop: 0
+                }, 300);
             });
         });
     }

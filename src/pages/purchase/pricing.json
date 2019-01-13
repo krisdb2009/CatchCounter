@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Mega Mouth",
+        "price": "$19.99",
+        "image": "./src/pages/home/img/ccounter.png",
+        "bullets": [
+            "Larger Mouth"
+        ],
+        "button": ""
+    }, {
+        "title": "Mega Mouth",
+        "price": "$19.99",
+        "image": "./src/pages/home/img/ccounter.png",
+        "bullets": [
+            "Larger Mouth"
+        ],
+        "button": ""
+    }, {
+        "title": "Mega Mouth",
+        "price": "$19.99",
+        "image": "./src/pages/home/img/ccounter.png",
+        "bullets": [
+            "Larger Mouth"
+        ],
+        "button": ""
+    }
+]

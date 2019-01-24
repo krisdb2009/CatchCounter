@@ -8,6 +8,8 @@ $.getJSON('./src/pages/purchase/pricing.json', function(items) {
         $.each(this.bullets, function() {
             bullets.append('<div class="bullet">'+this+'</div>');
         });
-        product.append('<div class="button">'+this.button+'</div>');
+        $.get(this.button, function(button) {
+            product.append('<div class="button">'+button+'</div>');
+        });
     });
 });

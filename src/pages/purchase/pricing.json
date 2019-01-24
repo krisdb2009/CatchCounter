@@ -6,7 +6,7 @@
         "bullets": [
             "Larger Mouth"
         ],
-        "button": ""
+        "button": "./src/pages/purchase/buttons/button1.htm"
     }, {
         "title": "Mega Mouth",
         "price": "$19.99",
@@ -14,14 +14,14 @@
         "bullets": [
             "Larger Mouth"
         ],
-        "button": ""
+        "button": "./src/pages/purchase/buttons/button2.htm"
     }, {
         "title": "Mega Mouth",
         "price": "$19.99",
         "image": "./src/pages/home/img/ccounter.png",
         "bullets": [
-            "Larger Mouth"
+            "Larger Mouth1"
         ],
-        "button": ""
+        "button": "./src/pages/purchase/buttons/button3.htm"
     }
 ]
